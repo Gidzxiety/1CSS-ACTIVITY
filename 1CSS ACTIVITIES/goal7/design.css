@@ -1,0 +1,40 @@
+/* H1 - To Do List */
+h1 {
+    color: #8a2be2;
+    font-size: 48px;
+}
+
+/* H2 - Monday */
+h2 {
+    color: #8a2be2;
+    font-size: 36px;
+}
+
+/* Do these things today! */
+.box p.done {
+    color: red;
+    font-size: 25px;
+}
+
+/* List items */
+ul.list li {
+    color: blue;
+    font-size: 24px;
+}
+
+/* Completed items */
+ul.list li.done {
+    color: green;
+}
+
+/* Other items */
+body > ul p.done {
+    color: black;
+    font-size: 13px;
+}
+
+/* Final paragraph */
+body > p {
+    color: black;
+    font-size: 24px;
+}
