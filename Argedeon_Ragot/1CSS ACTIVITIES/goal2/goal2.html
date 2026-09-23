@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+
+    <style>
+        * {
+            font-family: "Times New Roman", serif;
+        }
+
+        /* Element selector */
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #element {
+            color: red;
+        }
+
+        p[class] {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Selectors</h1>
+
+    <h2 class="description">
+        Applying CSS to Different Parts of HTML
+    </h2>
+
+    <p id="element">
+        1. The element selector targets elements based on their HTML tag name.
+    </p>
+
+    <p>
+        2. Class selectors target elements based on the value of the class attribute.
+    </p>
+
+    <p style="color: green;">
+        3. ID selectors target elements based on the value of the id attribute.
+    </p>
+
+    <p class="attribute">
+        4. Attribute selectors target elements based on their attributes and values.
+    </p>
+
+    <p>
+        5. The universal selector targets all elements.
+    </p>
+
+</body>
+</html>
